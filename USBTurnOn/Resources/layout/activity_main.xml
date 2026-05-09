@@ -2,18 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-  
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp">
+
   <Button
       android:id="@+id/btnToggleUSBDebugging"
-      android:layout_width="wrap_content"
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="Toggle USB Debugging" />
-  
-    <Button
-      android:id="@+id/buttonTurnOffScreen"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="關掉螢幕" />
+      android:text="@string/btn_usb_debug"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      android:padding="20dp" />
 
 </LinearLayout>
