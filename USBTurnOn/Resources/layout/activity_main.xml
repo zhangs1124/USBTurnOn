@@ -10,4 +10,10 @@
       android:layout_height="wrap_content"
       android:text="Toggle USB Debugging" />
   
+    <Button
+      android:id="@+id/buttonTurnOffScreen"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="關掉螢幕" />
+
 </LinearLayout>
